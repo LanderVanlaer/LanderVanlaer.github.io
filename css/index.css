@@ -20,7 +20,7 @@ section.repos {
 }
 
 section.repos h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
@@ -31,14 +31,14 @@ section.repos ul {
 section.repos ul li {
     display: block;
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
     width: 75%;
     position: relative;
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
     background-color: #27293D;
-    border: 2px solid #0098f0;
+    border: 1px solid #0098f0;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
@@ -78,5 +78,5 @@ section.repos ul li a {
     color: #fff;
     display: block;
     text-decoration: none;
-    padding: 4px 5px;
+    padding: 10px;
 }
