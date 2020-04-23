@@ -1,7 +1,13 @@
 window.onload = async () => {
-    const ul = document.querySelector("section#htmlRepositories ul");
+    //htmlRepositories
+    loadJson(document.querySelector("section#htmlRepositories ul"), "/HTML_repos.json");
+    //gitRepos
+    loadJson(document.querySelector("section#gitRepositories ul"), "/git_repos.json");
+}
+
+const loadJson = async (ul, fetchLink) => {
     try {
-        const response = await fetch("/HTML_repos.json");
+        const response = await fetch(fetchLink);
         if (!(response.status >= 200 && response.status < 400)) throw new Error(`Got response ${response.status} instead of 200`);
         const data = await response.json();
         data.forEach(repo => {
