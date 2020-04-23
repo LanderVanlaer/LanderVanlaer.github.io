@@ -9,7 +9,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-section.repos {
+section {
     background-color: #27293D;
     border-radius: 15px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
@@ -17,6 +17,14 @@ section.repos {
     min-width: 550px;
     margin: 25px 45px;
     padding: 20px 30px;
+}
+
+section#info p a {
+    color: #fff;
+}
+
+section#info p a:hover {
+    color: #ccc;
 }
 
 section.repos h1 {
