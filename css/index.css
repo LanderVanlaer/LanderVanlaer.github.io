@@ -32,6 +32,10 @@ section.repos h1 {
     margin-bottom: 10px;
 }
 
+section.repos h1 a {
+    color: #fff;
+}
+
 section.repos ul {
     margin-left: 10px;
 }
