@@ -28,7 +28,7 @@ section#info p a:hover {
 }
 
 section.repos h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
@@ -43,12 +43,12 @@ section.repos ul {
 section.repos ul li {
     display: block;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 10px;
     width: 75%;
     position: relative;
 
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
     background-color: #27293D;
     /* border: 1px solid #0098f0; */
     border-radius: 7px;
@@ -67,9 +67,10 @@ section.repos ul li::before {
     position: absolute;
     width: 0%;
     height: 1px;
-    bottom: 3px;
+    bottom: 5px;
     left: 5px;
     background-color: #fff;
+    opacity: .25;
     transition: width .2s ease-in-out;
     -webkit-transition: width .2s ease-in-out;
     -moz-transition: width .2s ease-in-out;
