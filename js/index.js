@@ -1,10 +1,7 @@
-window.onload = async () => {
-    //htmlRepositories
-    loadJson(document.querySelector("section#htmlRepositories ul"), "/HTML_repos.json");
-    //gitRepos
-    loadJson(document.querySelector("section#gitRepositories ul"), "/git_repos.json");
-    //gitRepoHtmlJsCss
-    loadJson(document.querySelector("section#gitRepoHtmlJsCss ul"), "/html_js_css.json");
+window.onload = () => {
+    document.querySelectorAll('section.repos').forEach(sec => {
+        if (sec.dataset.json) loadJson(sec.querySelector('ul'), `/${sec.dataset.json}.json`)
+    })
 }
 
 const loadJson = async (ul, fetchLink) => {
