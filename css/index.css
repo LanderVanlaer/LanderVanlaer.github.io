@@ -50,7 +50,7 @@ section.repos ul li {
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, .1);
     background-color: #27293D;
-    border: 1px solid #0098f0;
+    /* border: 1px solid #0098f0; */
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
