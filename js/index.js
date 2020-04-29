@@ -3,6 +3,8 @@ window.onload = async () => {
     loadJson(document.querySelector("section#htmlRepositories ul"), "/HTML_repos.json");
     //gitRepos
     loadJson(document.querySelector("section#gitRepositories ul"), "/git_repos.json");
+    //gitRepoHtmlJsCss
+    loadJson(document.querySelector("section#gitRepoHtmlJsCss ul"), "/html_js_css.json");
 }
 
 const loadJson = async (ul, fetchLink) => {
